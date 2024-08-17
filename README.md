@@ -3,19 +3,21 @@
 报告日期：2024年8月18日
 项目负责人：吳振
 
-项目概述:
+项目概述:  
+
 第一部分為該項目應用於本公司開發的元宇宙平台《明日劇場》的技術手冊搜索。使用NVIDIA NIM 平台microsoft/phi-3-small-128k-instruct小模型做rag檢索，使用NV-Embed-QA模型做檢索。
 以本產品技術手冊作為文檔，未來擬結合Gradio開發客戶應答機器人。
 
 第二部分為視覺識別機器人  
+使用NVIDIA NIM 平台microsoft/kosmos-2多模态模型
 
-kosmosui.py  
+具体代码见kosmosui.py，具体执行步骤： 
 
-pip install openai chainlit matplotlib  
+1.pip install openai chainlit matplotlib  
 
-export NVIDIA_API_KEY=  
+2.export NVIDIA_API_KEY=  
 
-chainlit run kosmosui.py  
+3.chainlit run kosmosui.py  
 
 
 技术方案与实施步骤:
