@@ -12,4 +12,5 @@ microsoft/phi-3-small-128k-instruct小模型做檢索，輕量化，便於安裝
 
 项目成果与展示：·
 
-                      <img width="1248" alt="pic" src="https://github.com/user-attachments/assets/07e53c5a-7dab-4bfc-95eb-134ce5096edf">
+
+![Uploading pic.jpg…]()
