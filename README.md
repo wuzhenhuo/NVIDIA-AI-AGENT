@@ -14,3 +14,6 @@ microsoft/phi-3-small-128k-instruct小模型做檢索，輕量化，便於安裝
 ![image](https://github.com/wuzhenhuo/NVIDIA-AI-AGENT/blob/main/pic.png)
 
 
+问题与解决方案：
+1.模型過期提示，根據vs的提示替換新模型。
+2.需要執行一次第10模塊，後面可以重讀已經保存的向量存儲。
