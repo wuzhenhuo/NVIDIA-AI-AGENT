@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/76251ae8-6eca-4e3f-b493-e7d8b66e7a48)# NVIDIA-AI-AGENT
+# NVIDIA-AI-AGENT
 项目名称：AI-AGENT夏季训练营 — RAG智能对话机器人
 报告日期：2024年8月18日
 项目负责人：吳振
@@ -12,4 +12,4 @@ microsoft/phi-3-small-128k-instruct小模型做檢索，輕量化，便於安裝
 
 
 项目成果与展示：
-![Uploading Screenshot 2024-08-17 at 5.55.13 PM.png…]()
+[Uploading Screenshot 2024-08-17 at 5.55.13 PM.png…]()
