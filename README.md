@@ -7,7 +7,7 @@
 
 第一部分為該項目應用於本公司開發的元宇宙平台《明日劇場》的技術手冊搜索。使用NVIDIA NIM 平台microsoft/phi-3-small-128k-instruct小模型做rag檢索，使用NV-Embed-QA模型做檢索。
 以本產品技術手冊作為文檔，未來擬結合Gradio開發客戶應答機器人。代碼實現見bootcamp_rag1_demo.ipynb   
-通過txt文檔實現RAG
+通過txt文檔實現RAG,初始化NV-Embed-QA向量模型，獲取文本數據集，進行基本清理，將文檔處理到faiss vectorstore並將其保存到磁盤，重讀之前保存的faiss vectorstore存儲，提出問題並基於phi3模型進行RAG檢索。
 
 
 環境搭建：  
