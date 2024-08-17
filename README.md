@@ -11,7 +11,7 @@
 第二部分為視覺識別機器人  
 使用NVIDIA NIM 平台microsoft/kosmos-2多模态模型
 
-具体代码见kosmosui.py，具体执行步骤： 
+具体代码见kosmosui.py，具体执行步骤：  
 1.pip install openai chainlit matplotlib  
 2.export NVIDIA_API_KEY=  
 3.chainlit run kosmosui.py  
