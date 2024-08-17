@@ -21,9 +21,23 @@ conda create --name ai_endpoint python=3.8
 conda activate ai_endpoint.
 # 3.安裝nvidia_ai_endpoint工具
 pip install langchain-nvidia-ai-endpoints
+# 4.安裝jupyter lab
+pip install jupyterlab
+# 5 安裝langchain_core
+pip install langchain_core
+# 6 安裝langchain
+pip install langchain
+# 7 安裝matplotlib
+pip install matplotlib
+# 8 安裝Numpy
+pip install numpy
+# 9 安裝faiss,
+pip install faiss-cpu==1.7.2
+# 10 安裝openai庫
+pip instal openai
+# 利用jupyter lab打開可見
+jupyter-lab
 ```
-
-
 
 具体代码见kosmosui.py，具体执行步骤：
 ```
