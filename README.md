@@ -21,6 +21,7 @@ microsoft/phi-3-small-128k-instruct小模型做檢索，輕量化，便於安裝
 
 项目成果与展示：
 ![image](https://github.com/wuzhenhuo/NVIDIA-AI-AGENT/blob/main/pic.png)
+功能演示:  
 ![image](https://github.com/wuzhenhuo/NVIDIA-AI-AGENT/blob/main/pic2.jpg)
 
 问题与解决方案：
