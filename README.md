@@ -12,13 +12,9 @@
 使用NVIDIA NIM 平台microsoft/kosmos-2多模态模型
 
 具体代码见kosmosui.py，具体执行步骤： 
-
 1.pip install openai chainlit matplotlib  
-
 2.export NVIDIA_API_KEY=  
-
 3.chainlit run kosmosui.py  
-
 
 技术方案与实施步骤:
 microsoft/phi-3-small-128k-instruct小模型做檢索，輕量化，便於安裝。
