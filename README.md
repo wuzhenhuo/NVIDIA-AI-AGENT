@@ -9,12 +9,28 @@
 以本產品技術手冊作為文檔，未來擬結合Gradio開發客戶應答機器人。
 
 第二部分為視覺識別機器人  
-使用NVIDIA NIM 平台microsoft/kosmos-2多模态模型
+使用NVIDIA NIM 平台microsoft/kosmos-2多模态模型,使用vs.
 
-具体代码见kosmosui.py，具体执行步骤：  
+環境搭建：  
+VS，安裝.NET Inatall Tool.
+配置環境：
+```
+# 1.創建python 3.8（以上）虛擬環境
+conda create --name ai_endpoint python=3.8
+# 2.進入虛擬環境
+conda activate ai_endpoint.
+# 3.安裝nvidia_ai_endpoint工具
+pip install langchain-nvidia-ai-endpoints
+```
+
+
+
+具体代码见kosmosui.py，具体执行步骤：
+```
 1.pip install openai chainlit matplotlib  
 2.export NVIDIA_API_KEY=  
-3.chainlit run kosmosui.py  
+3.chainlit run kosmosui.py
+``` 
 
 技术方案与实施步骤:
 microsoft/phi-3-small-128k-instruct小模型做檢索，輕量化，便於安裝。
